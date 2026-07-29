@@ -14,7 +14,7 @@ import re
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = "8006904977:AAFOmC3ef2Rm3yh6tfOCoOAX9Pm_MYf5_R8"
+BOT_TOKEN = ""
 PROXY_URL = None
 
 # --- ЛОГИРОВАНИЕ ---
