@@ -1,1 +1,6 @@
-aiogram, aiohttp, beautifulsoup4, apscheduler
+aiogram==3.4.1
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+apscheduler==3.10.4
+python-dotenv==1.0.0
+openai==1.6.1
