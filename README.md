@@ -60,5 +60,5 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/ТВОЙ_НИК/career-assistant-bot.git
+git clone https://github.com/LightLands/career-assistant-bot.git
 cd career-assistant-bot
