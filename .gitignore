@@ -1,30 +1,29 @@
-# Секреты и конфигурация
-.env
-.env.local
-
-# База данных и логи (они создадутся заново на сервере)
-*.db
-*.sqlite3
-*.log
-
-# Виртуальное окружение Python
-venv/
-env/
-.venv/
-ENV/
-
-# Кэш Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Папки IDE и редакторов кода
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Операционная система
-.DS_Store
-Thumbs.db
+career_assistant/
+├── .env
+├── .env.example
+├── requirements.txt
+├── main.py
+├── config.py
+├── models.py
+├── scheduler.py
+├── bot/
+│   ├── __init__.py
+│   ├── keyboards.py
+│   └── routers/
+│       ├── __init__.py
+│       ├── search.py
+│       ├── applications.py
+│       ├── subscriptions.py
+│       └── cover_letters.py
+├── services/
+│   ├── __init__.py
+│   ├── vacancies.py
+│   ├── analytics.py
+│   └── cover_letters.py
+├── integrations/
+│   ├── __init__.py
+│   ├── remoteok.py
+│   └── openrouter.py
+└── repositories/
+    ├── __init__.py
+    └── sqlite.py
